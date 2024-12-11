@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star1", "Star1\Star1.csproj", "{64C41A86-5823-4489-9075-46F4737E8ABC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29C70620-8900-415A-AC7F-BFCB8A9C5507}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star2", "Star2\Star2.csproj", "{27E0827C-67EB-4509-8880-68470427671F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C41A86-5823-4489-9075-46F4737E8ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C41A86-5823-4489-9075-46F4737E8ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C41A86-5823-4489-9075-46F4737E8ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C41A86-5823-4489-9075-46F4737E8ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E0827C-67EB-4509-8880-68470427671F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E0827C-67EB-4509-8880-68470427671F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E0827C-67EB-4509-8880-68470427671F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E0827C-67EB-4509-8880-68470427671F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05CC4E9C-07AE-4D86-91C9-EBA45D12ED44}
+	EndGlobalSection
+EndGlobal
