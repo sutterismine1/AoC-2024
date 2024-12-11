@@ -403,3 +403,8 @@ vshistory/
 
 **/input.txt
 **/sample.txt
+
+**/output.txt
+**/right.txt
+**/test.py
+**/wrong.txt
