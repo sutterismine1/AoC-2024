@@ -109,19 +109,10 @@ class Race
                 }
             }
         }
-        foreach (var state in endStates)
-        {
-            Console.WriteLine(dist[Array.IndexOf(nodes, state)]);
-        }
         var end = endStates.MinBy(node => dist[Array.IndexOf(nodes, node)]);
-        Console.WriteLine(dist[Array.IndexOf(nodes, end)]);
-        /*(int x, int y, int dir) currentNode = end;
-        while ((currentNode = prev[Array.IndexOf(nodes, currentNode)]) != (start.Item1 - 1, start.Item2, (int)Direction.R))
-        {
-            maze[currentNode.y, currentNode.x, 0] = 'O';
-            Console.WriteLine(dist[Array.IndexOf(nodes, currentNode)]);
-        }*/
-        
+        Console.WriteLine(dist[Array.IndexOf(nodes, end)]); // print shortest path length
+
+        //bfs backtracking through the path starting at U=End, and adding every neighbor node V next to U where Cost(V) = Cost(U) - 1000 or 1 depending on what kind of move it was
         var nodeQueue = new List<(int x, int y, int dir)> { end };
         var visited = new HashSet<(int x, int y, int dir)> { };
         (int x, int y, int dir) currentNode;
