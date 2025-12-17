@@ -3,6 +3,8 @@ If you stumbled onto this repository without knowing what Advent of Code is: it 
 
 https://adventofcode.com/2024
 
+The website gives a semi-unique input to people to solve which is not posted here. If you want to see the problem descriptions and sample inputs you can find them on the link above and click on the relevent day. 
+
 ----
 
 The first few puzzles are usually pretty simple, and then they ramp up quickly, requiring a good grasp of programming and math knowledge. 
